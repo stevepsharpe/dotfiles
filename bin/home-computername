@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+
+sudo scutil --set ComputerName "steve-mbp"
+sudo scutil --set HostName "steve-mbp"
+sudo scutil --set LocalHostName "steve-mbp"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "steve-mbp"
