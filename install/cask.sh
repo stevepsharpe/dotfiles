@@ -52,6 +52,7 @@ brew cask install kaleidoscope
 brew cask install little-snitch
 brew cask install macvim
 brew cask install medis
+brew cask install microsoft-office
 brew cask install mousepose
 brew cask install nucleo
 brew cask install paw
