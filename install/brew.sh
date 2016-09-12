@@ -53,6 +53,7 @@ brew install diff-so-fancy
 
 # https://passingcuriosity.com/2013/dnsmasq-dev-osx/
 brew install dnsmasq
+brew services start dnsmasq
 
 # Pack, ship and run any application as a lightweight container
 brew install docker
@@ -129,6 +130,7 @@ brew install multimarkdown
 
 # Open source relational database management system
 brew install mysql
+brew services start mysql
 
 # nginx web server
 brew install nginx
@@ -154,6 +156,7 @@ brew install python3
 
 # Postgres
 brew install postgres
+brew services start postgres
 
 # QT for capybara webkit
 brew install qt55
@@ -173,6 +176,7 @@ brew install reattach-to-user-namespace
 
 # Persistent key-value database, with built-in net interface
 brew install redis
+brew services start redis
 
 # Library for command-line editing
 brew install readline
