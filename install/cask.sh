@@ -6,6 +6,7 @@
 
 brew tap caskroom/cask
 brew tap caskroom/versions
+brew tap caskroom/fonts
 
 #############
 ### Casks ###
@@ -80,3 +81,8 @@ brew cask install vlc-webplugin
 brew cask install wd-my-cloud
 brew cask install wd-security
 brew cask install xscope
+
+#############
+### Fonts ###
+#############
+brew cask install font-inconsolata-for-powerline
