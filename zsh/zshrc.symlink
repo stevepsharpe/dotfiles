@@ -2,6 +2,9 @@
 ### Zsh Configuration ###
 #########################
 
+# rbenv
+eval "$(rbenv init -)"
+
 # Path to oh-my-zsh configuration
 ZSH=$HOME/.oh-my-zsh
 
