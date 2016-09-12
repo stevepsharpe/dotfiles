@@ -12,3 +12,4 @@ export NVM_DIR="$HOME/.nvm/"
 
 nvm install stable
 nvm alias default stable
+npm config delete prefix
